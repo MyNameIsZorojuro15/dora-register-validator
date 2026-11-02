@@ -1,0 +1,15 @@
+function_id,function_name,entity_lei,providers,contracts,hard_to_substitute_providers,spend_eur,single_provider
+F0109,Security operations centre,SYNT9F4L7AXYOEYZGC41,1,1,0,700000.0,True
+F0202,Market data,SYNTHNYG0DB96EMMBO25,1,1,0,982800.0,True
+F0203,Settlement back office,SYNTHNYG0DB96EMMBO25,1,1,1,610000.0,True
+F0101,Core banking and ledger,SYNT9F4L7AXYOEYZGC41,2,2,1,4300000.0,False
+F0102,Online and mobile banking,SYNT9F4L7AXYOEYZGC41,2,2,1,5620000.0,False
+F0103,Payments processing,SYNT9F4L7AXYOEYZGC41,2,2,2,2850000.0,False
+F0108,Network and connectivity,SYNT9F4L7AXYOEYZGC41,2,2,0,1220000.0,False
+F0201,Securities order routing,SYNTHNYG0DB96EMMBO25,2,2,1,2301600.0,False
+F0301,Card and SEPA processing,SYNTZ3W7BH8MNHPCHI40,2,2,2,1850400.0,False
+F0302,AML screening,SYNTZ3W7BH8MNHPCHI40,2,2,0,770000.0,False
+F0401,Crypto-asset custody,SYNT9XF3R2LU7283ZE70,2,2,2,2350000.0,False
+F0402,Trading engine,SYNT9XF3R2LU7283ZE70,2,2,1,1674400.0,False
+F0501,Policy administration,SYNT1BVPWO87TKRVSX08,2,2,1,1410000.0,False
+F0502,Claims handling,SYNT1BVPWO87TKRVSX08,2,2,0,655600.0,False

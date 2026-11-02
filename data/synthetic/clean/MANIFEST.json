@@ -1,0 +1,21 @@
+{
+  "synthetic": true,
+  "group": "Meridian Beispielbank Group (SYNTHETIC)",
+  "reporting_date": "2025-12-31",
+  "seed": 2025,
+  "notice": "SYNTHETIC register without planted defects. Every name, code and amount is invented.",
+  "templates": {
+    "B_01.01": 1,
+    "B_01.02": 14,
+    "B_01.03": 3,
+    "B_02.01": 39,
+    "B_02.02": 38,
+    "B_03.01": 39,
+    "B_03.02": 39,
+    "B_04.01": 36,
+    "B_05.01": 24,
+    "B_05.02": 8,
+    "B_06.01": 22,
+    "B_07.01": 25
+  }
+}

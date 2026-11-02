@@ -1,0 +1,26 @@
+c0010,c0020,c0030,c0040,c0050,c0060,c0070,c0080,c0090,c0100,c0110,c0120
+RC-0001,SYNTJPQB544LMPG0RJ34,LEI,Software licencing (excluding SaaS),Not substitutable,Provider operates the system of record; migration would take well over a year,2025-10-06,true,Highly complex,High,false,
+RC-0002,SYNTI83THWQQH5AUTQ25,LEI,"ICT, facilities and hosting services (excluding Cloud services)",Low complexity,,2025-11-01,true,Easy,Medium,true,Second source assessed in the exit plan
+RC-0003,SYNTFG7158XFQHVX7B85,LEI,Cloud services: IaaS,Highly complex substitutability,Provider operates the system of record; migration would take well over a year,2025-09-23,true,Difficult,High,false,
+RC-0004,SYNTTSKXRD7FWTP22S67,LEI,ICT security management services,Medium complexity,,2025-03-16,true,Easy,Medium,true,Second source assessed in the exit plan
+RC-0005,SYNTHRRPD079IYNNC629,LEI,ICT operation management (including maintenance),Highly complex substitutability,Provider operates the system of record; migration would take well over a year,2025-02-06,true,Difficult,High,false,
+RC-0006,SYNTFG7158XFQHVX7B85,LEI,Cloud services: PaaS,Highly complex substitutability,Provider operates the system of record; migration would take well over a year,2025-05-13,true,Difficult,High,false,
+RC-0012,SYNTHU5SZADTIBNWJR75,LEI,Telecommunication carrier,Low complexity,,2025-10-07,false,Easy,High,true,Second source assessed in the exit plan
+RC-0013,SYNTFTSUIA37ENCVI889,LEI,Network Infrastructure,Low complexity,,2025-10-30,true,Easy,High,true,Second source assessed in the exit plan
+RC-0014,SYNTSAIEIAINJ5JG9D07,LEI,ICT security management services,Medium complexity,,2025-03-31,true,Easy,Medium,true,Second source assessed in the exit plan
+RC-0015,SYNTD1CITJHG05146I17,LEI,Cloud services: SaaS,Medium complexity,,2025-06-10,false,Easy,High,true,Second source assessed in the exit plan
+RC-0016,SYNTFG7158XFQHVX7B85,LEI,Cloud services: IaaS,Highly complex substitutability,Provider operates the system of record; migration would take well over a year,2025-04-27,true,Difficult,High,false,
+RC-0017,SYNTU9MOT8NTUK3X1C82,LEI,Provision of data,Medium complexity,,2025-09-02,false,Easy,Medium,true,Second source assessed in the exit plan
+RC-0018,SYNTJPQB544LMPG0RJ34,LEI,Software licencing (excluding SaaS),Not substitutable,Provider operates the system of record; migration would take well over a year,2025-08-18,true,Highly complex,High,false,
+RC-0021,SYNTHRRPD079IYNNC629,LEI,ICT operation management (including maintenance),Highly complex substitutability,Provider operates the system of record; migration would take well over a year,2025-03-06,true,Difficult,High,false,
+RC-0022,SYNTCAATT1CKX8VWII44,LEI,Cloud services: PaaS,Highly complex substitutability,Provider operates the system of record; migration would take well over a year,2025-08-25,true,Difficult,High,false,
+RC-0023,SYNTHZU2IHWLHVGBAQ90,LEI,Data analysis,Low complexity,,2025-03-01,true,Easy,Medium,true,Second source assessed in the exit plan
+RC-0024,SYNTK4X1FI1V7HS09X57,LEI,Provision of data,Low complexity,,2025-05-02,false,Easy,High,true,Second source assessed in the exit plan
+RC-0026,SYNTLX3OWA6ZG0JDZU10,LEI,ICT operation management (including maintenance),Not substitutable,Provider operates the system of record; migration would take well over a year,2025-03-26,true,Highly complex,High,false,
+RC-0027,SYNTFG7158XFQHVX7B85,LEI,Cloud services: IaaS,Highly complex substitutability,Provider operates the system of record; migration would take well over a year,2025-06-10,true,Difficult,High,false,
+RC-0028,SYNTCAATT1CKX8VWII44,LEI,Cloud services: PaaS,Highly complex substitutability,Provider operates the system of record; migration would take well over a year,2025-10-28,true,Difficult,High,false,
+RC-0029,SYNTD1CITJHG05146I17,LEI,Cloud services: SaaS,Medium complexity,,2025-03-28,true,Easy,High,true,Second source assessed in the exit plan
+RC-0031,SYNTJPQB544LMPG0RJ34,LEI,Software licencing (excluding SaaS),Not substitutable,Provider operates the system of record; migration would take well over a year,2025-05-21,true,Highly complex,High,false,
+RC-0032,SYNTN9JHEUNXIU05PK23,LEI,"ICT, facilities and hosting services (excluding Cloud services)",Medium complexity,,2025-08-27,true,Easy,Medium,true,Second source assessed in the exit plan
+RC-0033,SYNTJNUL61LZ5HSMKM87,LEI,Cloud services: SaaS,Medium complexity,,2025-11-13,false,Easy,High,true,Second source assessed in the exit plan
+RC-0034,SYNT9OK2PMKRCRQCNT98,LEI,Non-Cloud Data storage,Easily substitutable,,2025-02-06,false,Easy,Medium,true,Second source assessed in the exit plan

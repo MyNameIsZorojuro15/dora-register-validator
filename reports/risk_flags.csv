@@ -1,0 +1,7 @@
+flag_id,subject,value,threshold,description,suggested_action
+CON-01,Aurelia Holdings Inc.,31.2% of ICT spend,>= 20%,Provider group takes a large share of ICT spend,Review the dependency and the exit options for this provider group.
+CON-02,Aurelia Holdings Inc.,4 critical functions,>= 4,Provider group supports many critical functions,Check whether one outage could hit several critical functions at once.
+CON-03,US,40.1% of ICT spend,>= 30%,High spend share under one non-EU jurisdiction,Review the third-country dependency (ultimate parent country).
+CON-04,F0109 Security operations centre,1 provider,> 1,Critical function depends on a single provider,Document the alternative or the exit route for this function.
+CON-04,F0202 Market data,1 provider,> 1,Critical function depends on a single provider,Document the alternative or the exit route for this function.
+CON-04,F0203 Settlement back office,1 provider,> 1,Critical function depends on a single provider,Document the alternative or the exit route for this function.

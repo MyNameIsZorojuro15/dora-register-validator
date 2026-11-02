@@ -1,0 +1,41 @@
+c0010,c0020,c0030,c0040,c0050
+RC-M001,Overarching/master agreement,,EUR,0
+RC-M002,Overarching/master agreement,,EUR,0
+RC-M003,Overarching/master agreement,,USD,0
+RC-0001,Subsequent or associated arrangement,RC-M002,,2400000
+RC-0002,Standalone arrangement,,EUR,19000000
+RC-0003,Subsequent or associated arrangement,RC-M001,EUR,-5200000
+RC-0004,Standalone arrangement,,EUR,336000
+RC-0005,Standalone arrangement,,EUR,1250000
+RC-0006,Subsequent or associated arrangement,RC-M001,EUR,1600000
+RC-0007,Standalone arrangement,,EUR,380000
+RC-0008,Standalone arrangement,,USD,210000
+RC-0009,Standalone arrangement,,EUR,150000
+RC-0010,Standalone arrangement,,EUR,520000
+RC-0011,Standalone arrangement,,EUR,300000
+RC-0012,Standalone arrangement,,EUR,640000
+RC-0013,Standalone arrangement,,EUR,580000
+RC-0014,Standalone arrangement,,EUR,700000
+RC-0015,Standalone arrangement,,USD,980000
+RC-0016,Subsequent or associated arrangement,RC-M001,EUR,1400000
+RC-0017,Standalone arrangement,,GBP,840000
+RC-0018,Subsequent or associated arrangement,RC-M002,EUR,610000
+RC-0019,Standalone arrangement,,EUR,190000
+RC-0020,Standalone arrangement,,USD,120000
+RC-0021,Standalone arrangement,,EUR,1050000
+RC-0022,Subsequent or associated arrangement,RC-M099,USD,870000
+RC-0023,Standalone arrangement,,EUR,460000
+RC-0024,Standalone arrangement,,EUR,310000
+RC-0025,Standalone arrangement,,EUR,280000
+RC-0026,Standalone arrangement,,EUR,1150000
+RC-0027,Subsequent or associated arrangement,RC-0002,EUR,1200000
+RC-0028,Subsequent or associated arrangement,RC-M003,USD,1300000
+RC-0029,Standalone arrangement,,USD,520000
+RC-0030,Standalone arrangement,,EUR,240000
+RC-0031,Subsequent or associated arrangement,,EUR,770000
+RC-0032,Standalone arrangement,,EUR,640000
+RC-0033,Standalone arrangement,,USD,430000
+RC-0034,Standalone arrangement,,EUR,260000
+RC-0035,Standalone arrangement,,EUR,350000
+RC-0036,Standalone arrangement,,EUR,160000
+RC-9001,Standalone arrangement,,EUR,50000

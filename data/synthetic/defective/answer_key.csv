@@ -1,0 +1,90 @@
+defect_id,defect,rule_id,template,row,column,detectable
+D01,A critical function was marked non-critical and its assessment removed (a consistent but wrong judgement),(none),B_06.01,12,c0050,False
+D02,Parent LEI is well-formed and has valid check digits but belongs to an unrelated entity,(none),B_01.02,13,c0060,False
+D03,Contract expense is ten times too high in both B_02.01 and the provider total (internally consistent),(none),B_02.01,6,c0050,False
+D04,Governing-law country is wrong (DE instead of US) but a valid code,(none),B_02.02,24,c0120,False
+D05,Legal name of a provider is blank,DRV-02,B_05.01,17,c0050,True
+D06,Start date of a contract is blank,DRV-02,B_02.02,25,c0070,True
+D07,Function name is blank,DRV-02,B_06.01,5,c0030,True
+D08,Country of a group entity is blank,DRV-02,B_01.02,10,c0030,True
+D09,Currency of a contract is blank,DRV-02,B_02.01,5,c0040,True
+D10,A branch is listed twice,DRV-03,B_01.03,3,c0010,True
+D10,A branch is listed twice,DRV-03,B_01.03,5,c0010,True
+D11,A contract-provider pair is listed twice in B_03.02,DRV-03,B_03.02,38,c0010,True
+D11,A contract-provider pair is listed twice in B_03.02,DRV-03,B_03.02,41,c0010,True
+D12,Parent LEI typed in lower case,DRV-04,B_01.02,14,c0060,True
+D13,Parent LEI has wrong check digits,DRV-05,B_01.02,5,c0060,True
+D14,LEI of the entity maintaining the register is one character short,DRV-04,B_01.01,2,c0010,True
+D14,LEI of the entity maintaining the register is one character short,DRV-31,B_01.01,2,c0010,True
+D15,Two characters of an entity LEI are transposed in B_02.02,DRV-05,B_02.02,12,c0020,True
+D15,Two characters of an entity LEI are transposed in B_02.02,DRV-31,B_02.02,12,c0020,True
+D16,Signing-entity LEI typed in lower case in B_03.01,DRV-04,B_03.01,38,c0020,True
+D16,Signing-entity LEI typed in lower case in B_03.01,DRV-31,B_03.01,38,c0020,True
+D17,Provider declared as EUID but the code is an LEI,DRV-08,B_05.01,9,c0010,True
+D18,Provider declared as EUID in B_02.02 but the code is an LEI,DRV-08,B_02.02,20,c0030,True
+D19,Country 'UK' instead of GB,DRV-06,B_05.01,14,c0080,True
+D20,Country of provision 'XX',DRV-06,B_02.02,21,c0130,True
+D21,Branch country as three letters,DRV-06,B_01.03,2,c0040,True
+D22,Currency 'EURO',DRV-07,B_01.02,3,c0100,True
+D23,Currency 'US$' on a provider,DRV-07,B_05.01,18,c0090,True
+D24,Entity type 'Bank' is not in the list,DRV-09,B_01.02,12,c0040,True
+D25,Type of person 'Company' is not in the list,DRV-09,B_05.01,4,c0070,True
+D26,Reintegration answer 'Maybe',DRV-09,B_07.01,8,c0090,True
+D27,Level of reliance 'Very high' is not in the list,DRV-09,B_02.02,36,c0180,True
+D28,Storage flag typed as 'yes',DRV-09,B_02.02,6,c0140,True
+D29,End date typed as dd/mm/yyyy,DRV-10,B_02.02,9,c0080,True
+D30,Assessment date 30 February,DRV-10,B_06.01,21,c0070,True
+D31,Audit date in month 13,DRV-10,B_07.01,3,c0070,True
+D32,Recovery time objective written in words,DRV-11,B_06.01,18,c0080,True
+D33,Notice period written with a unit,DRV-11,B_02.02,35,c0100,True
+D34,Total assets 'n/a',DRV-11,B_01.02,11,c0110,True
+D35,Rank written in words,DRV-11,B_05.02,7,c0050,True
+D36,Total assets negative,DRV-12,B_01.02,8,c0110,True
+D37,Provider total expense negative,DRV-12,B_05.01,20,c0100,True
+D37,Provider total expense negative,DRV-46,B_05.01,20,c0100,True
+D38,Contract expense negative,DRV-12,B_02.01,7,c0050,True
+D38,Contract expense negative,DRV-46,B_05.01,2,c0100,True
+D39,End date earlier than start date,DRV-13,B_02.02,37,c0080,True
+D40,End date earlier than start date,DRV-13,B_02.02,2,c0080,True
+D41,Function assessed after the reporting date,DRV-14,B_06.01,7,c0070,True
+D42,Provider audited after the reporting date,DRV-14,B_07.01,24,c0070,True
+D43,Entity last update dated after the reporting date,DRV-14,B_01.02,15,c0070,True
+D44,Entity deleted before it was integrated,DRV-15,B_01.02,6,c0090,True
+D45,Entity last update before integration,DRV-15,B_01.02,9,c0070,True
+D46,Termination reason without an end date,DRV-16,B_02.02,8,c0090,True
+D47,Total assets without currency,DRV-17,B_01.02,4,c0100,True
+D48,Provider total expense without currency,DRV-17,B_05.01,21,c0090,True
+D49,Subsequent arrangement without overarching reference,DRV-18,B_02.01,35,c0030,True
+D50,Branch flag true but no branch code,DRV-19,B_04.01,17,c0040,True
+D51,Branch code given but flag false,DRV-19,B_04.01,14,c0040,True
+D52,Hard to substitute without a reason,DRV-20,B_07.01,12,c0060,True
+D53,Critical function without reasons,DRV-21,B_06.01,13,c0060,True
+D54,Alternatives flagged but not named,DRV-22,B_07.01,25,c0120,True
+D55,Data stored but no storage location,DRV-23,B_02.02,22,c0150,True
+D56,Second row of a contract points to a contract that does not exist,DRV-30,B_02.02,11,c0010,True
+D57,Provider of a second contract row is not in B_05.01 and differs from B_03.02,DRV-32,B_02.02,38,c0030,True
+D57,Provider of a second contract row is not in B_05.01 and differs from B_03.02,DRV-41,B_02.02,38,c0030,True
+D58,Signing-entity row refers to a contract that does not exist (the real contract loses its row),DRV-30,B_03.01,10,c0010,True
+D58,Signing-entity row refers to a contract that does not exist (the real contract loses its row),DRV-40,B_02.01,10,c0010,True
+D59,Assessment row carries another existing provider,DRV-34,B_07.01,17,c0020,True
+D60,Assessment row carries a provider that does not exist,DRV-32,B_07.01,14,c0020,True
+D60,Assessment row carries a provider that does not exist,DRV-34,B_07.01,14,c0020,True
+D61,Sub-contractor in the supply chain is not in B_05.01,DRV-32,B_05.02,4,c0060,True
+D62,Ultimate parent of a provider is not in B_05.01,DRV-32,B_05.01,12,c0110,True
+D63,Function identifier does not exist in B_06.01,DRV-33,B_02.02,27,c0050,True
+D64,Branch code does not exist in B_01.03,DRV-36,B_04.01,12,c0040,True
+D65,Function row carries an entity LEI that is not in B_01.02,DRV-31,B_06.01,22,c0040,True
+D66,Overarching reference does not exist,DRV-35,B_02.01,26,c0030,True
+D67,Overarching reference points to a standalone contract,DRV-35,B_02.01,31,c0030,True
+D68,Contract added to B_02.01 with no rows anywhere else,DRV-40,B_02.01,41,c0010,True
+D69,Provider added to B_05.01 that no contract uses,DRV-42,B_05.01,26,c0010,True
+D70,"Non-critical contract re-pointed to a critical function (no assessment, no reliance level)",DRV-43,B_02.02,32,c0010,True
+D70,"Non-critical contract re-pointed to a critical function (no assessment, no reliance level)",DRV-44,B_02.02,32,c0180,True
+D71,Assessment row added for a non-critical contract,DRV-43,B_07.01,26,c0010,True
+D72,Level of reliance filled for a non-critical function,DRV-44,B_02.02,10,c0180,True
+D73,Level of reliance blank for a critical function,DRV-44,B_02.02,26,c0180,True
+D74,"Critical, not substitutable, but no exit plan",DRV-45,B_07.01,20,c0080,True
+D75,Provider total 25 percent above the sum of its contracts,DRV-46,B_05.01,16,c0100,True
+D76,A contract expense 20 percent below what the provider total implies,DRV-46,B_05.01,19,c0100,True
+D77,Supply chain rank 2 changed to 3 (gap),DRV-47,B_05.02,3,c0050,True
+D78,Sub-contractor is the provider itself,DRV-47,B_05.02,2,c0060,True

@@ -1,0 +1,286 @@
+{
+  "register": {
+    "group": "Meridian Beispielbank Group (SYNTHETIC)",
+    "reporting_date": "2025-12-31",
+    "seed": 2025,
+    "rows": {
+      "B_01.01": 1,
+      "B_01.02": 14,
+      "B_01.03": 3,
+      "B_02.01": 39,
+      "B_02.02": 38,
+      "B_03.01": 39,
+      "B_03.02": 39,
+      "B_04.01": 36,
+      "B_05.01": 24,
+      "B_05.02": 8,
+      "B_06.01": 22,
+      "B_07.01": 25
+    },
+    "total_rows": 288,
+    "templates": 12,
+    "entities": 14,
+    "contracts": 36,
+    "providers": 24,
+    "functions": 22,
+    "critical_functions": 14
+  },
+  "rules": {
+    "data_quality": 38,
+    "risk_flags": 4,
+    "by_category": {
+      "Completeness": 3,
+      "Format": 9,
+      "Date logic": 4,
+      "Conditional": 7,
+      "Referential integrity": 7,
+      "Cross-template": 8
+    },
+    "by_basis": {
+      "EBA-family": 3,
+      "EBA": 15,
+      "EBA-offline": 3,
+      "ITS": 8,
+      "EBA-inactive": 1,
+      "custom": 8
+    },
+    "built_on_published_rule": 22,
+    "rules_in_sql": 15
+  },
+  "clean": {
+    "issues": 0
+  },
+  "defective": {
+    "issues": 85,
+    "errors": 57,
+    "warnings": 28,
+    "rules_fired": 37,
+    "by_template": {
+      "B_01.01": 2,
+      "B_01.02": 11,
+      "B_01.03": 3,
+      "B_02.01": 7,
+      "B_02.02": 21,
+      "B_03.01": 3,
+      "B_03.02": 2,
+      "B_04.01": 3,
+      "B_05.01": 13,
+      "B_05.02": 4,
+      "B_06.01": 6,
+      "B_07.01": 10
+    }
+  },
+  "evaluation": {
+    "defects_injected": 78,
+    "defects_in_scope": 74,
+    "defects_out_of_scope": 4,
+    "defects_caught": 74,
+    "defects_missed_in_scope": 0,
+    "key_lines_in_scope": 85,
+    "key_lines_hit": 85,
+    "issues_reported": 85,
+    "false_alarms": 0,
+    "precision": 1.0,
+    "recall": 1.0
+  },
+  "evaluation_by_category": {
+    "Completeness": {
+      "planted": 9,
+      "hit": 9,
+      "false_alarms": 0,
+      "rules": 2
+    },
+    "Format": {
+      "planted": 27,
+      "hit": 27,
+      "false_alarms": 0,
+      "rules": 9
+    },
+    "Date logic": {
+      "planted": 8,
+      "hit": 8,
+      "false_alarms": 0,
+      "rules": 4
+    },
+    "Conditional": {
+      "planted": 9,
+      "hit": 9,
+      "false_alarms": 0,
+      "rules": 7
+    },
+    "Referential integrity": {
+      "planted": 16,
+      "hit": 16,
+      "false_alarms": 0,
+      "rules": 7
+    },
+    "Cross-template": {
+      "planted": 16,
+      "hit": 16,
+      "false_alarms": 0,
+      "rules": 8
+    }
+  },
+  "undetectable": [
+    {
+      "defect_id": "D01",
+      "defect": "A critical function was marked non-critical and its assessment removed (a consistent but wrong judgement)",
+      "template": "B_06.01",
+      "row": 12
+    },
+    {
+      "defect_id": "D02",
+      "defect": "Parent LEI is well-formed and has valid check digits but belongs to an unrelated entity",
+      "template": "B_01.02",
+      "row": 13
+    },
+    {
+      "defect_id": "D03",
+      "defect": "Contract expense is ten times too high in both B_02.01 and the provider total (internally consistent)",
+      "template": "B_02.01",
+      "row": 6
+    },
+    {
+      "defect_id": "D04",
+      "defect": "Governing-law country is wrong (DE instead of US) but a valid code",
+      "template": "B_02.02",
+      "row": 24
+    }
+  ],
+  "planted_by_rule": {
+    "DRV-02": 5,
+    "DRV-03": 4,
+    "DRV-04": 3,
+    "DRV-05": 2,
+    "DRV-06": 3,
+    "DRV-07": 2,
+    "DRV-08": 2,
+    "DRV-09": 5,
+    "DRV-10": 3,
+    "DRV-11": 4,
+    "DRV-12": 3,
+    "DRV-13": 2,
+    "DRV-14": 3,
+    "DRV-15": 2,
+    "DRV-16": 1,
+    "DRV-17": 2,
+    "DRV-18": 1,
+    "DRV-19": 2,
+    "DRV-20": 1,
+    "DRV-21": 1,
+    "DRV-22": 1,
+    "DRV-23": 1,
+    "DRV-30": 2,
+    "DRV-31": 4,
+    "DRV-32": 4,
+    "DRV-33": 1,
+    "DRV-34": 2,
+    "DRV-35": 2,
+    "DRV-36": 1,
+    "DRV-40": 2,
+    "DRV-41": 1,
+    "DRV-42": 1,
+    "DRV-43": 2,
+    "DRV-44": 3,
+    "DRV-45": 1,
+    "DRV-46": 4,
+    "DRV-47": 2
+  },
+  "concentration": {
+    "spend_eur": 30168400.0,
+    "groups": 21,
+    "top_group": "Aurelia Holdings Inc.",
+    "top_group_share": 0.3116,
+    "top_group_critical_functions": 4,
+    "top3_share": 0.5263,
+    "top_parent_country_non_eu": "US",
+    "top_parent_country_non_eu_share": 0.4009,
+    "flags": {
+      "CON-01": 1,
+      "CON-02": 1,
+      "CON-03": 1,
+      "CON-04": 3
+    },
+    "single_provider_functions": 3,
+    "critical_functions": 14,
+    "top_groups": [
+      {
+        "group_name": "Aurelia Holdings Inc.",
+        "group_country": "US",
+        "spend_eur": 9400000.0,
+        "spend_share": 0.3116,
+        "critical_functions": 4
+      },
+      {
+        "group_name": "Delphi Core Banking Software AG",
+        "group_country": "DE",
+        "spend_eur": 3780000.0,
+        "spend_share": 0.1253,
+        "critical_functions": 3
+      },
+      {
+        "group_name": "Cobalt Group Holdings LLC",
+        "group_country": "US",
+        "spend_eur": 2695600.0,
+        "spend_share": 0.0894,
+        "critical_functions": 3
+      },
+      {
+        "group_name": "Eskarina Payments Gateway B.V.",
+        "group_country": "NL",
+        "spend_eur": 2300000.0,
+        "spend_share": 0.0762,
+        "critical_functions": 2
+      },
+      {
+        "group_name": "Borealis Compute GmbH",
+        "group_country": "DE",
+        "spend_eur": 1900000.0,
+        "spend_share": 0.063,
+        "critical_functions": 1
+      }
+    ]
+  },
+  "examples": [
+    {
+      "severity": "error",
+      "rule_id": "DRV-31",
+      "template": "B_01.01",
+      "row": 2,
+      "message": "Entity LEI SYNT9F4L7AXYOEYZGC4 is not in B_01.02",
+      "fix": "Fix the LEI, or add the entity to B_01.02."
+    },
+    {
+      "severity": "error",
+      "rule_id": "DRV-05",
+      "template": "B_01.02",
+      "row": 5,
+      "message": "'SYNT9F4L7AXYOEYZGC42' fails the ISO 17442 check digits: c0060 LEI of the direct parent undertaking",
+      "fix": "The ISO 17442 check digits do not match: a typo. Copy the LEI from the GLEIF record."
+    },
+    {
+      "severity": "warning",
+      "rule_id": "DRV-43",
+      "template": "B_02.02",
+      "row": 32,
+      "message": "Contract supports a critical or important function but has no row in B_07.01",
+      "fix": "B_07.01 is completed for contracts supporting critical or important functions, and only for those."
+    },
+    {
+      "severity": "warning",
+      "rule_id": "DRV-46",
+      "template": "B_05.01",
+      "row": 16,
+      "message": "Provider total 187500 EUR but its 1 contracts add up to 150000.0",
+      "fix": "Reconcile B_05.01 total expense with the contract expenses in B_02.01 (same currency)."
+    },
+    {
+      "severity": "warning",
+      "rule_id": "DRV-45",
+      "template": "B_07.01",
+      "row": 20,
+      "message": "Highly complex substitutability provider supporting a critical function, without an exit plan",
+      "fix": "DORA Art. 28(8) expects an exit strategy for critical services. Confirm the plan exists or set it up."
+    }
+  ]
+}

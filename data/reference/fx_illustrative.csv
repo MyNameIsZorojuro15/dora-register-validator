@@ -1,0 +1,4 @@
+currency,eur_per_unit,note
+EUR,1.00,reporting currency of the synthetic group
+USD,0.92,ILLUSTRATIVE fixed rate for the concentration view; not an ECB reference rate
+GBP,1.17,ILLUSTRATIVE fixed rate for the concentration view; not an ECB reference rate

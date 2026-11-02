@@ -1,0 +1,37 @@
+basis,country,in_eu,contracts,critical_contracts,spend_eur,spend_share
+country of provision,IE,True,13,9,14135600.0,0.4686
+country of provision,DE,True,17,10,11522800.0,0.3819
+country of provision,NL,True,4,3,2735000.0,0.0907
+country of provision,FR,True,1,1,700000.0,0.0232
+country of provision,IT,True,1,1,580000.0,0.0192
+country of provision,FI,True,1,1,420000.0,0.0139
+country of provision,PL,True,1,0,75000.0,0.0025
+provider headquarters,IE,True,4,4,9400000.0,0.3116
+provider headquarters,DE,True,9,6,8130000.0,0.2695
+provider headquarters,US,False,5,3,2695600.0,0.0894
+provider headquarters,NL,True,3,3,2560000.0,0.0849
+provider headquarters,SG,False,2,2,1380000.0,0.0457
+provider headquarters,GB,False,2,1,1142800.0,0.0379
+provider headquarters,FR,True,1,1,700000.0,0.0232
+provider headquarters,FI,True,2,1,700000.0,0.0232
+provider headquarters,NO,False,1,1,640000.0,0.0212
+provider headquarters,CH,False,1,1,640000.0,0.0212
+provider headquarters,IT,True,1,1,580000.0,0.0192
+provider headquarters,IL,False,2,1,550000.0,0.0182
+provider headquarters,IN,False,1,0,520000.0,0.0172
+provider headquarters,AT,True,1,0,380000.0,0.0126
+provider headquarters,PL,True,1,0,150000.0,0.005
+ultimate parent headquarters,US,False,9,7,12095600.0,0.4009
+ultimate parent headquarters,DE,True,9,6,8130000.0,0.2695
+ultimate parent headquarters,NL,True,3,3,2560000.0,0.0849
+ultimate parent headquarters,SG,False,2,2,1380000.0,0.0457
+ultimate parent headquarters,GB,False,2,1,1142800.0,0.0379
+ultimate parent headquarters,FI,True,2,1,700000.0,0.0232
+ultimate parent headquarters,FR,True,1,1,700000.0,0.0232
+ultimate parent headquarters,NO,False,1,1,640000.0,0.0212
+ultimate parent headquarters,CH,False,1,1,640000.0,0.0212
+ultimate parent headquarters,IT,True,1,1,580000.0,0.0192
+ultimate parent headquarters,IL,False,2,1,550000.0,0.0182
+ultimate parent headquarters,IN,False,1,0,520000.0,0.0172
+ultimate parent headquarters,AT,True,1,0,380000.0,0.0126
+ultimate parent headquarters,PL,True,1,0,150000.0,0.005
